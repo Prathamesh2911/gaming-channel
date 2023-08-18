@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'HippopotamusApocalypse-Gzly.ttf';
+    src: url(HippopotamusApocalypse-Gzly.ttf);
+    
+}
+
+.class-a{
+    margin: 0;
+    font-size: 17;
+    color: #A5FFFF;
+    line-height: 1.6;
+    font-family: 'Orbitron', sans-serif;
+}
+main{
+    /* background-image: url(../code/img/game1.jpg); */
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    padding: 0 20px;
+    animation: slider 10s infinite linear;
+}
+
+@keyframes slider {
+    0%{background-image: url(/img/game1.jpg); }
+    50%{ background-image: url(/img/ABSTRACT_BACKGROUND_01.jpg);}
+    100%{ background-image: url(/img/gaming.jpg);}
+    
+}
+h2{
+    font-size: 50px;
+    font-family: 'Skranji', cursive;
+    color:#FFFFFF;
+}
+h1{
+    font-size: 60px;
+    font-style: bold;
+    font-family: 'HippopotamusApocalypse-Gzly.ttf';
+    text-align: left;
+    background-image: linear-gradient( #12c2e9, #c471ed, #f64f59);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: capitalize;
+    
+   
+}
+
+h3{
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+body{
+    background-color: black;
+}
+nav{
+    background-image: linear-gradient(to right, rgb(4, 33, 87) , rgb(101, 198, 255));
+    /* padding: 10px; */
+    overflow: hidden;
+    font-size: 20px;
+}
+
+.topnav a{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Electrolize', sans-serif;
+}
+
+.topnav a:hover {
+    background-color: paleturquoise;
+    color: black;
+}
+
+.topnav a.active{
+    background-color: #2196F3;
+  color: white;
+}
+
+.topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+    border: 1px solid #ccc;
+  }
+  
+
+
+footer{
+    padding: 10px;
+    
+    background-image: linear-gradient(to right, rgb(4, 33, 87) , rgb(101, 198, 255));
+}
+
+footer a{
+    padding: 10px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-family: 'Electrolize', sans-serif;
+
+}
+
+footer a:hover{
+    background-color: paleturquoise;
+    color: black;
+}
+
+#section-a{
+    padding: 20px;
+    background-color:black;
+    display: table;
+    color: aqua;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+        
+  }
+
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table; 
+}
+
+.row {
+    display: flex;
+  }
+  
+dt{
+    font-weight: bold;
+    padding: 10px;
+    font-family: 'Skranji', cursive;
+}
+
+dl,dd{
+    font-size: .9rem;
+}
+
+dd{
+    margin-bottom: 1em;
+    padding: 20px;
+    font-family: 'Orbitron', sans-serif;
+}
